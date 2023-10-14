@@ -1,10 +1,17 @@
 @charset "utf-8";
 header{
-    background-color: aliceblue;
+    background-color: black;
     padding: 30px;
     text-align: center;
-    color:rebeccapurple;
+    color:red;
     font-size: 20pt;
+    border: 5pt solid;
+    border-color: red;
+}
+
+body{
+    background-color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/936/797/original/abstract-geometric-gold-lines-pattern-on-black-background-vector.jpg);
 }
 
 nav{
@@ -17,17 +24,29 @@ section{
     float: left;
     background-color: black;
     color: black;
-    width: 70%;
+    padding: 10pt;
 }
 
+.descriptioncl{
+    color: goldenrod;
+    border-color: goldenrod;
+    border: 1px solid;
+    padding: 50pt;
+    text-align: left;
+}
 
 table,th,td{
     border:1px solid;
     color:goldenrod;
     text-align: center;
+    size: 10px;
+    padding:3pt;
 }
 
 .purpleman{
     color:rebeccapurple;
     font-size: 18pt;
+}
+.tablebackground{
+    background-color: black;
 }
